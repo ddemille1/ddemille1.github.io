@@ -41,6 +41,7 @@ p {
   font-family: var(--paragraph-font);
   color: #16324f;
   padding: 1em;
+  font-size: large;
 }
 .colors {
   width: 100%;
