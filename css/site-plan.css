@@ -68,7 +68,7 @@ p {
   background-color: var(--accent2-color);
 }
 nav {
-  background-color:#16324f ;
+  background-color:#8f7e4f ;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -87,5 +87,5 @@ nav a:visited {
 }
 nav a:hover {
   color: #16324f;
-  background-color: #16324f;
+  background-color: var(--secondary-color);
 }
