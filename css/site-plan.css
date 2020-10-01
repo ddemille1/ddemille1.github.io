@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&family=Tangerine&display=swap");
 :root {
   --primary-color: #16324f;
   --secondary-color: #5c1a1b;
@@ -41,6 +41,7 @@ p {
   font-family: var(--paragraph-font);
   color: #16324f;
   padding: 1em;
+  font-size: 30px;
 }
 .colors {
   width: 100%;
@@ -68,7 +69,7 @@ p {
   background-color: var(--accent2-color);
 }
 nav {
-  background-color:#16324f ;
+  background-color:#8f7e4f ;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -87,5 +88,5 @@ nav a:visited {
 }
 nav a:hover {
   color: #16324f;
-  background-color: #16324f;
+  background-color: var(--secondary-color);
 }
