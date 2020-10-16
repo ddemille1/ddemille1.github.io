@@ -16,7 +16,6 @@ header {color: black;
 .heading {display: flex;
         flex-direction: column;}
 
-nav {display: block;}
 
 nav ul {margin-top: -56px;
         margin-left: 320px; }
@@ -54,9 +53,13 @@ main p {background-color:  #5c1a1b;
      
 footer {background-color: #8f7e4f;
     max-width: 960px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    }
 
 footer p {
     font-size: 1rem;
-    font-family: Verdana, Helvetica, sans-serif;}
+    font-family: Verdana, Helvetica, sans-serif;
+    }
 
