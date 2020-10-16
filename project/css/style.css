@@ -10,27 +10,28 @@ header {color: black;
         margin: 0 auto;
         padding: 5px 0;
         display: flex;
-        justify-content: center;}
+        justify-content: center;
+        flex-direction: row;}
 
-     
-.heading {display: flex;
-        flex-direction: column;}
+picture {display: flex;
+    align-items: center;
+    padding-right: 1rem;}
 
+section {display: flex;}
 
-nav ul {margin-top: -56px;
-        margin-left: 320px; }
-ul {display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;}
+h1 {display: flex;
+    align-items: center; 
+    padding-right: 3rem;}
 
-nav li {padding-left: 100px;
-    display: inline-block;
-    padding: 10px;
-    margin: 2px;}
+nav {display: flex;
+    align-items: center;}
+
+ul {display: flex;
+    padding-left: 5rem;}
+
+li {display: flex; 
+    padding-left: 2rem; 
+    }       
     
 .hero {display: block;
     margin-left: auto;
