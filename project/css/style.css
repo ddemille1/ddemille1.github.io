@@ -11,23 +11,20 @@ header {color: black;
         padding: 5px 0;
         display: flex;
         justify-content: center;
-        flex-direction: row;}
+        align-items: center;}
 
 picture {display: flex;
     align-items: center;
     padding-right: 1rem;}
 
-section {display: flex;}
+section {display: flex;
+    align-items: center;}
 
 h1 {display: flex;
     align-items: center; 
     padding-right: 3rem;}
 
-nav {display: flex;
-    align-items: center;}
-
-ul {display: flex;
-    padding-left: 5rem;}
+ul {display: flex;}
 
 li {display: flex; 
     padding-left: 2rem; 
