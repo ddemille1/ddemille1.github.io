@@ -208,6 +208,7 @@ body {
   background-color: blue;
   height: 100px;
   width: 600px;
+  clear: left;
 }
 
 .layout6 {
