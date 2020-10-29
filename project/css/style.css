@@ -147,3 +147,8 @@ footer p {
     font-family: Verdana, Helvetica, sans-serif;
        }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    
+}
