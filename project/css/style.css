@@ -147,21 +147,28 @@ footer div {
 }
 .map {
     padding-bottom: 10px;
-    padding-top: 15px;
+    padding-top: 5px;
+    width: 20px;
 }
 .phone {
-    padding-top: 10px;
+    padding-top: 20px;
+    width: 20px;
 }
 .mail {
-    padding-top: 10px;
+    padding-top: 0px;
+    width: 20px;
 }
 .map, .phone, .mail {
     padding-right: 10px;
 }
 .social {
     margin-left: auto;
+    align-self: flex-start;
+    padding-top: 16px;
 }
-
+.social-icon {
+    width: 50px;
+}
 footer p {
     font-size: 1rem;
     font-family: Verdana, Helvetica, sans-serif;
