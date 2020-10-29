@@ -168,6 +168,7 @@ footer div {
 }
 .social-icon {
     width: 50px;
+    padding: 4px;
 }
 footer p {
     font-size: 1rem;
