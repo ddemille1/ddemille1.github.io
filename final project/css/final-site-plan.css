@@ -1,118 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Goldman&family=Open+Sans&display=swap');
 
 :root {
-    --primary-color:#01233f;
-    --secondary-color: #9f0707;
-    --accent1-color: #a3a3a3;
-    --accent2-color:#000000;
-    --heading-font: 'Black Ops One', cursive;
-    --paragraph-font: 'Goldman', cursive;
+  --primary-color: #01233f;
+  --secondary-color: #3a3a3a;
+  --accent1-color: #9f0707;
+  --background-color: #f2f2f2;
+  --heading-font: "Black Ops One", cursive;
+  --subheading-font: "Goldman", cursive;
+  --paragraph-font: "Open Sans", sans-serif;
 }
 
 html {
-    background-color: var(--primary-color)
+  background-image: url("../images/blueprint.jpg");
 }
 
 body {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 1em
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  padding: 1em;
 }
 
 img {
-    max-width: 100%
+  max-width: 100%;
 }
 
 h1,
-h2,
-h3,
-h4,
+h2, #black-ops {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+h3, 
+h4, 
 h5,
 h6 {
-    font-family: var(--heading-font);
-   
+    font-family: var(--subheading-font);
+    color: var(--secondary-color);
 }
 
 header {
-    padding: 1em;
-    text-align: center;
-    color: var(--accent2-color);
-    background-image: url('../images/blueprint.jpg');
+  padding: 1em;
+  text-align: center;
+  color: var(--secondary-color);
 }
 
-header>h1 {
-    color:white;
-    text-shadow: 5px 5px 10px black;
-}
-header>div {
-    color: white;
-    text-shadow: 5px 5px 3px black;
+
+header div {
+    font-family: var(--subheading-font);
+    color: var(--secondary-color);
+    font-size: 1.5em;  
 }
 
-    
-p {
+#paragraph {
     font-family: var(--paragraph-font);
-    color: ;
-    padding: 1em;
-    
+}
+p {
+  font-family: var(--paragraph-font);
+  padding: 1em;
 }
 
 .colors {
-    width: 100%;
-    min-width: 350px;
-    margin: auto;
-    text-align: center
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
 }
 
 .colors th {
-    background-color: #999
+  background-color: #999;
 }
 
 .colors td {
-    width: 25%;
-    height: 3em
+  width: 25%;
+  height: 3em;
 }
 
 .primary {
-    background-color: var(--primary-color)
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .secondary {
-    background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .accent1 {
-    background-color: var(--accent1-color)
+  background-color: var(--accent1-color);
+  color: white;
 }
 
-.accent2 {
-    background-color: var(--accent2-color)
+.background {
+  background-color: var(--background-color);
 }
 
 nav {
-    background-color: ;
-    line-height: 3em;
-    text-align: center;
-    font-size: 1.2em
+  background-color: ;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
 }
 
-nav>ul {
-    list-style-type: none;
-    display: flex
+nav > ul {
+  list-style-type: none;
+  display: flex;
 }
 
 nav a {
-    padding: 1em;
-    min-width: 70px
+  padding: 1em;
+  min-width: 70px;
 }
 
 nav a:link,
 nav a:visited {
-    color:
+  color:;
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+  color: ;
+  background-color: ;
+}
+
+.colored {
+    color: white;
+    background-color: var(--accent1-color);
 }
