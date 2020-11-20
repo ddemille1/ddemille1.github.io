@@ -272,7 +272,7 @@ form {
     position: relative;
     left: 75px;
     top: 20px;
-    margin: 20px;
+    margin: 20px 20px 40px 20px;
 }
 
 .vernal-banner h2 {
@@ -298,6 +298,17 @@ form {
 .history-section, .features-section, .facts {
     display: block;
     justify-self: center;
+}
+.features-section img {
+    position: relative;
+    left: 25px; 
+}
+.history-section img {
+    position: relative;
+    left: 25px; 
+}
+.history-section p {
+    margin-top: 40px;
 }
 .facts img {
     position: relative;
