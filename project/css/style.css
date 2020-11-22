@@ -12,7 +12,7 @@ header {color: black;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #8f7e4f;
+        background-color: #C6B36A;
         }
 
 picture {display: flex;
@@ -34,10 +34,10 @@ li {display: flex;
     padding-left: 2rem; 
     }       
 li a:link {
-    color: white;
+    color: #0000EE;
 }
 li a:visited {
-        color: rgb(182, 204, 203);
+        color: #551A8B;
 }
 li a:hover {
     color: #ff0000;
@@ -128,7 +128,7 @@ main p {background-color:  #5c1a1b;
         padding: 10px 30px;
         text-align: left;}
      
-footer {background-color: #8f7e4f;
+footer {background-color: #C6B36A;
     max-width: 960px;
     margin: 0 auto;
     box-sizing: border-box;
