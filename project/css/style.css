@@ -34,7 +34,7 @@ li {display: flex;
     padding-left: 2rem; 
     }       
 li a:link {
-    color: white);
+    color: white;
 }
 li a:visited {
         color: rgb(182, 204, 203);
