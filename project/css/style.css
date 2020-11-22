@@ -6,13 +6,13 @@ body {background-color: #16324f;
     }
 
 header {color: black;
-        background-color: #8f7e4f;
         max-width: 960px;
         margin: 0 auto;
         padding: 5px 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #8f7e4f;
         }
 
 picture {display: flex;
@@ -387,10 +387,13 @@ form {
     position: relative;
 }
 .free-amenities {
-    position: absolute;
+    /*position: absolute;
     top: 70px;
-    left: 100px;
-    width: 250px;
+    left: 100px;*/
+    width: 960px;
+}
+.free-amenities p {
+    column-count: 3;
 }
 .free-amenities h2 {
     text-shadow: 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black
