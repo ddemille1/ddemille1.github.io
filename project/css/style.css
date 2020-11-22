@@ -45,7 +45,7 @@ li a:hover {
 li a:active {
     color: #0000FF;}
     
-main {
+.main-index {
     max-width: 960px;
     margin: 0 auto;
     font-size: 2rem;
@@ -88,7 +88,9 @@ h3 {
 main h2 {color: white;
         text-align: center;
         font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif}
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black
+    }
 
 .section1  {
     grid-column: 1/2;
@@ -263,6 +265,9 @@ form {
 
 /* css for temple spotlight */
 .temple-spotlight {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 2rem;
     display: block;
 }
 .vernal-banner {
@@ -278,6 +283,7 @@ form {
 .vernal-banner h2 {
     grid-column: 1/2;
     grid-row: 1/2;
+    text-shadow: 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black
 }
 .vernal-banner img {
     grid-column: 1/-1;
@@ -315,7 +321,82 @@ form {
     left: 30px; 
 }
 
+/*css for ammenities section*/
+
+.amenities {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 2rem;
+    display: block;
+}
+.amenities-banner {
+    text-align: center;
+    position: relative;
+    top: -45px;
+    height: 600px;
+}
+.amenities-banner h2 {
+    position: relative;
+    text-shadow: 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black;
+    top: 120px;
+    text-align: left;
+    left: 175px;
+}.amenities-banner p{
+    width: 250px;
+    position: relative;
+    bottom: 185px;
+    left: 570px;
+    }
+
+.amenities-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-gap: 75px;
+}
+
+.changing-rooms, .childcare, .kitchenettes, .sitting-area, .reception-hall, .family-history, .free-amenities, .free-amenities ul 
+{
+    display: block;
+    justify-self: center;}
+.childcare img {
+    position: relative;
+    left: 25px;
+}
+.kitchenettes img {
+    position: relative;
+    left: 25px;
+}
+.family-history img {
+    position: relative;
+    left: 25px;
+}
+
+.closing-img {
+    position: relative;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;}
+
+.changing-rooms img, .childcare img, .kitchenettes img, .sitting-area img, .reception-hall img, .family-history img{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;}
+
+.last-section {
+    position: relative;
+}
+.free-amenities {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 250px;
+}
+.free-amenities h2 {
+    text-shadow: 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black
+}
+
 @media screen and (max-width: 550px)
-    { header, ul, main, .banner-box, footer div { display: block; }
+    { header, ul, .main-index, .banner-box, footer div { display: block; }
     .banner {display: none;}
     }
