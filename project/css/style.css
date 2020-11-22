@@ -34,10 +34,10 @@ li {display: flex;
     padding-left: 2rem; 
     }       
 li a:link {
-    color: #242b86fd;
+    color: white);
 }
 li a:visited {
-        color: #510e9e;
+        color: rgb(182, 204, 203);
 }
 li a:hover {
     color: #ff0000;
