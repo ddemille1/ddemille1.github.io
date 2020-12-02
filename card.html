@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 | Media Card Assignment</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            width: 320px;
+            background-color: white;
+            box-shadow: 1px 1px 4px 1px #888;
+            border-radius: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        p {
+            padding-left: 20px;
+        }
+
+        footer {
+            display: flex;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            color: #888;
+        }
+
+        .buttonGroup button {
+            background-color: white;           
+            border: 1px solid #888;
+            color: #888;          
+            padding: 7px;        
+            cursor: pointer;
+            float: left;
+        }
+
+        .buttonGroup button:not(:last-child) {
+            border-right: none;
+        }
+
+        .viewButton {
+            border-radius: 3px 0 0 3px;
+        }
+
+        .editButton {
+            border-radius: 0 3px 3px 0;
+        }
+
+        span {
+            margin-left: 150px;
+            font-size: 13px;
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <article class="card">
+        <img src="https://picsum.photos/320/240" alt="Placeholder image">
+        <p> This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+            a little bit longer.
+
+        </p>
+        <footer>
+            <div class="buttonGroup">
+                <button class="viewButton">View
+
+                </button>
+                <button class="editButton">Edit
+
+                </button>
+            </div>
+            <span>
+                9 mins
+            </span>
+        </footer>
+
+    </article>
+
+</body>
+
+</html>
