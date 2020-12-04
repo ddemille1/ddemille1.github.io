@@ -21,6 +21,13 @@ body {
   background-color: var(--background-color2);
   padding: 1em;
 }
+
+h1 {font-family: var(--heading-font);
+  color: var(--primary-color)}
+h2 {font-family: var(--subheading-font);
+  color: var(--primary-color)}
+p {font-family: var(--paragraph-font);}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -35,13 +42,34 @@ nav {
 
 
 
-img {
+.logo {
   max-width: 100%;
   padding: 0 0 0 1em;
-  margin: -40px 0;
+  margin: -50px 0;
 }
 
 footer {
   border-top: 1px solid var(--primary-color);
   background-color: var(--background-color);
+}
+
+/*css for equipment page*/
+.equip-heading {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slow-cooker, .instant-pot, .scale {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px auto;
+
+}
+.slow-cooker img, .instant-pot img, .scale img {
+  align-self: center;
+}
+.slow-cooker-txt, .instant-pot-txt, .scale-txt {
+  flex-basis: 500px;
 }
