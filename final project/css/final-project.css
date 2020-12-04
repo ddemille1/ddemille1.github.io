@@ -58,12 +58,16 @@ footer {
   display:flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
+}
+.equip-heading p {
+  text-align: center;
 }
 
 .slow-cooker, .instant-pot, .scale {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 40px auto;
 
 }
@@ -71,5 +75,8 @@ footer {
   align-self: center;
 }
 .slow-cooker-txt, .instant-pot-txt, .scale-txt {
-  flex-basis: 500px;
+  flex-basis: 200px;
+  flex-grow: 2;
+  margin-left: 20px;
+
 }
