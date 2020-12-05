@@ -28,6 +28,7 @@ h2 {font-family: var(--subheading-font);
   color: var(--primary-color)}
 p {font-family: var(--paragraph-font);}
 
+/*css for header and footer*/
 header {
   display: flex;
   justify-content: space-between;
@@ -52,13 +53,52 @@ footer {
   border-top: 1px solid var(--primary-color);
   background-color: var(--background-color);
 }
+/*css for home page*/
+.homepage-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em auto;
+}
+.homepage-heading-txt {
+  flex-basis: 200px;
+  flex-grow: 2;
+  margin: 0 1em;
+}
+.homepage-banner {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 114px 114px 114px;
+}
+.action {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: end;
+  background-color: #9f0707;
+
+}
+
+.action a {
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+}
+.action h3 {
+  color: white;
+  text-align: center;
+
+}
+
+.homepage-banner img {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
 
 /*css for equipment page*/
 .equip-heading, .contact-heading {
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 .equip-heading p, .contact-heading p {
   text-align: center;
@@ -68,7 +108,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 40px auto;
+  margin: 2em auto;
 
 }
 .slow-cooker img, .instant-pot img, .scale img {
@@ -77,7 +117,7 @@ footer {
 .slow-cooker-txt, .instant-pot-txt, .scale-txt {
   flex-basis: 200px;
   flex-grow: 2;
-  margin-left: 20px;
+  margin-left: 1em;
 }
 
 /*css for contact page*/
@@ -133,7 +173,7 @@ button {
 
 #feedback {
     color: var(--accent1-color);
-    margin: 10px auto;
+    margin: 1em auto;
     width: 400px;
     padding: 1em;
     display: none;
@@ -156,6 +196,7 @@ button {
 
 .card p {
   padding: 0 1em;
+  text-align: center;
 }
 
 .card footer {
