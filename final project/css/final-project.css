@@ -93,6 +93,21 @@ footer {
   grid-row: 1/-1;
 }
 
+/*css specific to meal plan page*/
+.spaghetti-main, .spaghetti-sides, .stroganoff-main, .stroganoff-sides {
+  flex-basis: 250px;
+  flex-grow: 2;
+  margin-left: 1em;
+}
+.meal-plans ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+.meal-plans h2 {
+  margin: 2em 0 1em 0;
+}
+
+
 /*css for equipment page*/
 .equip-heading, .contact-heading {
   display:flex;
@@ -100,18 +115,18 @@ footer {
   align-items: center;
   margin-bottom: 1rem;
 }
-.equip-heading p, .contact-heading p {
+.equip-heading p, .contact-heading p, .meal-plans h1, .meal-plans h2 {
   text-align: center;
 }
 
-.slow-cooker, .instant-pot, .scale {
+.slow-cooker, .instant-pot, .scale, .spaghetti-plan, .stroganoff-plan {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 2em auto;
 
 }
-.slow-cooker img, .instant-pot img, .scale img {
+.slow-cooker img, .instant-pot img, .scale img, .meal-plans img {
   align-self: center;
 }
 .slow-cooker-txt, .instant-pot-txt, .scale-txt {
