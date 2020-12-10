@@ -26,7 +26,8 @@ h1 {font-family: var(--heading-font);
   color: var(--primary-color)}
 h2 {font-family: var(--subheading-font);
   color: var(--secondary-color)}
-p {font-family: var(--paragraph-font);}
+p {font-family: var(--paragraph-font);
+text-indent: 40px;}
 
 /*css for header and footer*/
 header {
