@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: var(--background-color2);
   padding: 1em;
@@ -41,6 +41,10 @@ header {
 nav {
   padding-right: 1em;
 }
+nav a {
+  font-family: var(--subheading-font);
+  color: var(--secondary-color)
+}
 
 
 
@@ -53,13 +57,18 @@ nav {
 footer {
   border-top: 1px solid var(--primary-color);
   background-color: var(--background-color);
+  clear: none;
 }
 /*css for home page*/
 .homepage-heading {
-  display: flex;
+  /*display: flex;*/
   flex-wrap: wrap;
   justify-content: center;
   margin: 2em auto;
+}
+
+.homepage-heading h1, h2 {
+  text-align: center;
 }
 .homepage-heading-txt {
   flex-basis: 200px;
@@ -67,6 +76,8 @@ footer {
   margin: 0 1em;
 }
 .homepage-banner {
+  float: right;
+  margin: 20px;
   display: grid;
   grid-template-columns: 150px 150px 150px;
   grid-template-rows: 114px 114px 114px;
@@ -95,10 +106,18 @@ footer {
 }
 
 /*css specific to meal plan page*/
-.spaghetti-main, .spaghetti-sides, .stroganoff-main, .stroganoff-sides {
+.toc-meal-plans li {
+  list-style-type: none;
+  text-align: center;
+}
+.toc-meal-plans a {
+  font-family: var(--subheading-font);
+  color: var(--secondary-color);
+}
+.spaghetti-main, .spaghetti-sides, .stroganoff-main, .stroganoff-sides, .scrambled-eggs-main, .scrambled-eggs-sides, .chili-main, .chili-sides {
   flex-basis: 250px;
   flex-grow: 2;
-  margin-left: 1em;
+  margin-left: 2em;
 }
 .meal-plans ul {
   list-style-type: square;
@@ -108,6 +127,10 @@ footer {
   margin: 2em 0 1em 0;
 }
 
+.meal-plans img {
+  align-self: flex-start;
+  padding: 10px;
+}
 
 /*css for equipment page*/
 .equip-heading, .contact-heading {
@@ -120,14 +143,14 @@ footer {
   text-align: center;
 }
 
-.slow-cooker, .instant-pot, .scale, .spaghetti-plan, .stroganoff-plan {
+.slow-cooker, .instant-pot, .scale, .spaghetti-plan, .stroganoff-plan, .scrambled-eggs-plan, .chili-plan {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 2em auto;
 
 }
-.slow-cooker img, .instant-pot img, .scale img, .meal-plans img {
+.slow-cooker img, .instant-pot img, .scale img {
   align-self: center;
 }
 .slow-cooker-txt, .instant-pot-txt, .scale-txt {
@@ -213,6 +236,7 @@ button {
 .card p {
   padding: 0 1em;
   text-align: center;
+  text-indent: 0;
 }
 
 .card footer {
