@@ -132,6 +132,12 @@ footer {
   padding: 10px;
 }
 
+.chili-plan p:first-of-type, 
+.scrambled-eggs-plan p:first-of-type,
+.spaghetti-plan p:first-of-type,
+.stroganoff-plan p:first-of-type {
+  text-indent: 0px;
+}
 /*css for equipment page*/
 .equip-heading, .contact-heading {
   display:flex;
