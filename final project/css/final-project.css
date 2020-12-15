@@ -43,7 +43,8 @@ nav {
 }
 nav a {
   font-family: var(--subheading-font);
-  color: var(--secondary-color)
+  color: var(--secondary-color);
+  padding: 1em;
 }
 
 
